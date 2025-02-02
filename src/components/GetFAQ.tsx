@@ -3,8 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Select from 'react-select';
 import "../utils/i18n";
 
-const BACKEND_BASE_URL=`https://faq-backend-212c.onrender.com`
-
+const BACKEND_BASE_URL=`https://faq-backend-xvp5.onrender.com/api/faqs` 
+//const BACKEND_BASE_URL_FALLBACK=`http://localhost:5000/api/faqs`
 
 const GetFAQ: React.FC = () => {
   const { t, i18n } = useTranslation();

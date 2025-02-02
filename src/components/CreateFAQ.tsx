@@ -4,7 +4,8 @@ import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
 import 'ckeditor5/ckeditor5.css';
 import 'ckeditor5-premium-features/ckeditor5-premium-features.css';
 
-const BACKEND_BASE_URL=`https://faq-backend-212c.onrender.com`
+const BACKEND_BASE_URL=`https://faq-backend-xvp5.onrender.com/api`  
+//const BACKEND_BASE_URL_FALLBACK=`http://localhost:5000/api`
 
 const FAQForm = () => {
   const [formData, setFormData] = useState({
