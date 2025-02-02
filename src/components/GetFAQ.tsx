@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import Select from 'react-select';
 import "../utils/i18n";
 
-const API_URL = 'http://localhost:5000/api/faqs/';
+const BACKEND_BASE_URL=`https://faq-backend-212c.onrender.com`
+
 
 const GetFAQ: React.FC = () => {
   const { t, i18n } = useTranslation();
@@ -17,7 +18,7 @@ const GetFAQ: React.FC = () => {
     const getFAQs = async () => {
       setLoading(true);
       try {
-        const response = await fetch(`${API_URL}?lang=${language}`);
+        const response = await fetch(`${BACKEND_BASE_URL}?lang=${language}`);
         const data = await response.json();
         setFaqs(data?.data || []);
       } catch (error) {

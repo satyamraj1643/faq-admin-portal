@@ -1,9 +1,60 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# faq-frontend 
+faq admin portal for creating and viewing faqs.  
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# faq-admin-portal
+## Tech Stack  
+
+**Client:** React, TailwindCSS , Ckedit5(WYSIWYG editor)
+
+**Hosting:** [Render](https://www.render.com) 
+
+
+## Features  
+
+- Create FAQs
+- Get FAQs
+
+
+## Lessons Learned  
+
+Nothing new on frontend, learned about rich text editor.
+
+## Run Locally  
+
+Clone the project  
+
+~~~bash  
+  git clone https://github.com/satyamraj1643/faq-admin-portal
+~~~
+
+Go to the project directory  
+
+~~~bash  
+  cd faq-admin-portal
+~~~
+
+Install dependencies  
+
+~~~bash  
+npm install
+~~~
+
+Start the server  
+
+~~~bash  
+npm run dev
+~~~
+
+
+
+## Acknowledgements  
+
+- [CKEdit5](https://ckeditor.com/docs/ckeditor5/latest/index.html)
+
+
+## Feedback  
+
+If you have any feedback, please reach out to us at satyamraj1643@gmail.com
+
+

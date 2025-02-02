@@ -1,4 +1,4 @@
-// i18n.ts
+
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
@@ -19,14 +19,14 @@ const resources = {
       nextPage: "Suivant",
     },
   },
-  // Add more languages as needed
+
 };
 
 i18n.use(initReactI18next).init({
   resources,
-  lng: 'en', // default language
+  lng: 'en', 
   interpolation: {
-    escapeValue: false, // React already safes from xss
+    escapeValue: false, 
   },
 });
 
